@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+/* NAVBAR */
+.btn-cause {
+  box-shadow: 3px 3px 3px gray;
+  background-color: #79c350;
+  color: white;
+}
+.btn-cause:hover {
+  background-color: yellow;
+  color: black;
+}
+p {
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+.navbar .navbar-brand {
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+/* Intro */
+.intro p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  word-spacing: 5px;
+  line-height: 30px;
+}
+
+.text-color {
+  color: #79c350;
+}
+.bg-gray {
+  background-color: rgb(228, 227, 227);
+}
+.bg-gray1 {
+  background-color: rgb(239, 237, 237);
+}
+
+.education {
+  color: #f0c774;
+  font-family: "bebas neue", Sans-serif;
+  font-size: 39.31px;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 50.54px;
+  letter-spacing: 1px;
+}
+.healthcare {
+  color: #c0adcc;
+  font-family: "bebas neue", Sans-serif;
+  font-size: 39.31px;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 50.54px;
+  letter-spacing: 1px;
+}
+.women {
+  color: #b3d2d1;
+  font-family: "bebas neue", Sans-serif;
+  font-size: 39.31px;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 50.54px;
+  letter-spacing: 1px;
+}
+.livelihood {
+  color: #debfae;
+  font-family: "bebas neue", Sans-serif;
+  font-size: 39.31px;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 50.54px;
+  letter-spacing: 1px;
+}
+.empowering {
+  color: #50c878;
+  font-family: "bebas neue", Sans-serif;
+  font-size: 39.31px;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 50.54px;
+  letter-spacing: 1px;
+}
+.disaster {
+  color: salmon;
+  font-family: "bebas neue", Sans-serif;
+  font-size: 39.31px;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 50.54px;
+  letter-spacing: 1px;
+}
+.heading-title {
+  font-family: "bebas neue", Sans-serif;
+  font-weight: 600;
+  line-height: 53.76px;
+  letter-spacing: 1px;
+}
+
+.container .title {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.col-lg-3 .content-image {
+  width: 100%;
+  height: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.bg-award {
+  background-color: #debfae;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4b4c4b;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  margin-top: 5px;
+  margin-left: -27px;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #79c350;
+}
+footer h5 {
+  border-bottom: 1px groove white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.social .nav .nav-item {
+  margin-left: 20px;
+}
+.social .nav .nav-item .nav-link {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+/* about css */
+.about-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.598), rgba(0, 0, 0, 0.603)),
+    url("../assets/about.jpg");
+  height: 480px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-tabs {
+  background-color: yellow;
+}
+.nav-tabs li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 30px;
+}
+.nav-tabs li a {
+  color: black;
+  text-decoration: none;
+}
+.nav-tabs .active {
+  background-color: #79c350 !important;
+  font-weight: bold;
+}
+.nav-tabs .active Link {
+  color: white;
+}
+.about-banner1 {
+  width: 100%;
+  height: 400px;
+  background-image: url("../assets/Clip-Group_2-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(1);
+}
+.about-banner2 {
+  background-image: url("../assets/Untitled-4-2.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.supp_case{
+  /* color: white; */
+  text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    display: block;
+    width: 100%;
+  }
+  .nav-tabs li {
+    display: block;
+    padding: 5px;
+    text-align: center;
+  }
+  .about-banner1 {
+    background-position: center;
+  }
+}
